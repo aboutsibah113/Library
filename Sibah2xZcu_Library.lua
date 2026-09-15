@@ -9,7 +9,7 @@ local Custom = {} do
 		ColorSequenceKeypoint.new(0, Color3.fromRGB(200, 200, 200)),
 		ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 	})
-	Custom.DefaultIcon = "rbxthumb://type=Asset&id=130008176530837&w=420&h=420"
+	Custom.DefaultIcon = "rbxthumb://type=Asset&id=132281476392315&w=420&h=420"
 	function Custom:Create(Name, Properties, Parent)
 		local inst = Instance.new(Name)
 		for k, v in pairs(Properties) do
@@ -47,7 +47,7 @@ local function OpenClose()
 	}, Player.PlayerGui)
 	local resolvedImage = (_OpenCloseImageId and _OpenCloseImageId ~= "")
 		and ("rbxassetid://" .. tostring(_OpenCloseImageId))
-		or "rbxthumb://type=Asset&id=130008176530837&w=420&h=420"
+		or "rbxthumb://type=Asset&id=132281476392315&w=420&h=420"
 	local Close_ImageButton = Custom:Create("ImageButton", {
 		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
 		BorderColor3 = Color3.fromRGB(255, 0, 0),
