@@ -61,7 +61,7 @@ local function OpenClose()
 	}, ScreenGui)
 	Custom:Create("UICorner", {
 		Name = "MainCorner",
-		CornerRadius = UDim.new(0, 8),
+		CornerRadius = UDim.new(1, 0),
 	}, Close_ImageButton)
 	local dragging, dragStart, startPos = false, nil, nil
 	Close_ImageButton.InputBegan:Connect(function(input)
